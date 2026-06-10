@@ -1,0 +1,42 @@
+# This file is copied to .ai-local/project-profile.yaml by install.sh.
+
+project:
+  name: ""
+  profile: "base"
+  description: ""
+
+stack:
+  frontend: ""
+  backend: ""
+  database: ""
+  mobile: ""
+  package_manager: ""
+
+paths:
+  frontend: ""
+  backend: ""
+  docs: "docs"
+  ai_docs: "docs/ai"
+
+commands:
+  install: ""
+  dev: ""
+  lint: ""
+  typecheck: ""
+  test: ""
+  build: ""
+
+quality:
+  required_before_done:
+    - "lint"
+    - "test"
+    - "build"
+  screenshots_required_for_ui: true
+  feature_log_required: true
+  error_case_required_on_failure: true
+
+agent:
+  default_workflow: "implement"
+  prefer_subagents_for_broad_tasks: true
+  permanent_rule_changes_require_review: true
+

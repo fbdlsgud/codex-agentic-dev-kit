@@ -1,0 +1,30 @@
+profile: nextjs
+description: Next.js application
+
+stack:
+  frontend: Next.js
+  backend: Next.js route handlers or external API
+  database: ""
+  package_manager: pnpm
+
+paths:
+  frontend: src
+  backend: src
+  docs: docs
+  ai_docs: docs/ai
+
+commands:
+  install: pnpm install
+  dev: pnpm dev
+  lint: pnpm lint
+  typecheck: pnpm typecheck
+  test: pnpm test
+  build: pnpm build
+
+quality:
+  required_before_done:
+    - lint
+    - typecheck
+    - build
+  screenshots_required_for_ui: true
+

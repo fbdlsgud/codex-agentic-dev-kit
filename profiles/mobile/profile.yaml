@@ -1,0 +1,28 @@
+profile: mobile
+description: Mobile app project
+
+stack:
+  frontend: Mobile UI
+  backend: ""
+  database: local or remote
+  package_manager: ""
+
+paths:
+  frontend: ""
+  backend: ""
+  docs: docs
+  ai_docs: docs/ai
+
+commands:
+  install: ""
+  dev: ""
+  lint: ""
+  typecheck: ""
+  test: ""
+  build: ""
+
+quality:
+  required_before_done:
+    - test
+  screenshots_required_for_ui: true
+

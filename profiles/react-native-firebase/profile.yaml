@@ -1,0 +1,41 @@
+profile: react-native-firebase
+description: React Native mobile app with Firebase
+
+stack:
+  frontend: React Native
+  backend: Firebase
+  database: Firestore
+  mobile: React Native
+  package_manager: npm
+
+paths:
+  frontend: src
+  backend: ""
+  docs: docs
+  ai_docs: docs/ai
+
+commands:
+  install: npm install
+  dev: npm start
+  lint: npm run lint
+  typecheck: npm run typecheck
+  test: npm run test
+  build: ""
+
+quality:
+  required_before_done:
+    - lint
+    - typecheck
+    - test
+  screenshots_required_for_ui: true
+  feature_log_required: true
+  error_case_required_on_failure: true
+
+firebase:
+  services:
+    - auth
+    - firestore
+    - storage
+    - cloud-messaging
+  client_location: src/shared/services/firebase
+

@@ -1,0 +1,30 @@
+profile: node-api
+description: Node.js API project
+
+stack:
+  frontend: ""
+  backend: Node.js API
+  database: ""
+  package_manager: npm
+
+paths:
+  frontend: ""
+  backend: src
+  docs: docs
+  ai_docs: docs/ai
+
+commands:
+  install: npm install
+  dev: npm run dev
+  lint: npm run lint
+  typecheck: npm run typecheck
+  test: npm run test
+  build: npm run build
+
+quality:
+  required_before_done:
+    - lint
+    - typecheck
+    - test
+  screenshots_required_for_ui: false
+
