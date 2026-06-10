@@ -1,5 +1,10 @@
 # Agentic Dev Kit
 
+<p align="right">
+  <a href="README.md"><strong>ENG</strong></a> |
+  <a href="README.ko.md"><strong>KOR</strong></a>
+</p>
+
 Personal starter kit for repeatable AI-assisted side projects.
 
 This kit assumes **Codex is already installed** on the machine. Everything in
