@@ -1,6 +1,6 @@
 name = "frontend-engineer"
 description = "Frontend implementation: UI, client state, styling, accessibility."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "medium"
 sandbox_mode = "workspace-write"
 developer_instructions = """

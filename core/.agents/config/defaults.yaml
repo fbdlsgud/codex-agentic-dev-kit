@@ -2,18 +2,18 @@ version: "0.2.0"
 runtime: codex
 
 agent_defaults:
-  orchestrator: { model: "gpt-5.4", effort: "medium" }
-  pm-planner: { model: "gpt-5.4", effort: "medium" }
-  architecture-reviewer: { model: "gpt-5.4", effort: "high" }
-  frontend-engineer: { model: "gpt-5.4", effort: "medium" }
-  mobile-engineer: { model: "gpt-5.4", effort: "medium" }
-  backend-engineer: { model: "gpt-5.4", effort: "medium" }
-  db-engineer: { model: "gpt-5.4", effort: "medium" }
-  debug-investigator: { model: "gpt-5.4", effort: "high" }
-  qa-reviewer: { model: "gpt-5.4", effort: "high" }
-  independent-verifier: { model: "gpt-5.4", effort: "high" }
-  docs-curator: { model: "gpt-5.4", effort: "medium" }
-  scm-manager: { model: "gpt-5.4", effort: "medium" }
+  orchestrator: { model: "gpt-5.5", effort: "medium" }
+  pm-planner: { model: "gpt-5.5", effort: "medium" }
+  architecture-reviewer: { model: "gpt-5.5", effort: "high" }
+  frontend-engineer: { model: "gpt-5.5", effort: "medium" }
+  mobile-engineer: { model: "gpt-5.5", effort: "medium" }
+  backend-engineer: { model: "gpt-5.5", effort: "medium" }
+  db-engineer: { model: "gpt-5.5", effort: "medium" }
+  debug-investigator: { model: "gpt-5.5", effort: "high" }
+  qa-reviewer: { model: "gpt-5.5", effort: "high" }
+  independent-verifier: { model: "gpt-5.5", effort: "high" }
+  docs-curator: { model: "gpt-5.5", effort: "medium" }
+  scm-manager: { model: "gpt-5.5", effort: "medium" }
 
 defaults:
   install_mode: standard

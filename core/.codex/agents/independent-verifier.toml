@@ -1,6 +1,6 @@
 name = "independent-verifier"
 description = "Independent judge for Ralph loops. Verifies criteria without implementing fixes."
-model = "gpt-5.4"
+model = "gpt-5.5"
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 developer_instructions = """
